@@ -35,6 +35,6 @@ https://github.com/Developer-Students-Clubs-MESCOE/Mysuru-Tourism-H-WOW
 
 - Create a Pull Request
 
-- Please ⭐️ this repo if you li
+- Please ⭐️ this repo if you like
 
 
