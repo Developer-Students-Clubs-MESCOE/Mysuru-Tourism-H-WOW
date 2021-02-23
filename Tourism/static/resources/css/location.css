@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding-top: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+#explore{
+    /* height: 100vh; */
+    background: #f2709c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.loc{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 12px;
+}
+
+.loc .photo{
+    width: 376px;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 12px;
+}
+.loc h4 pre{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.loc h4{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    color: white;
+    font-size: 35px;
+    opacity: 0;
+    transition: all 1s ease;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.loc:hover .photo{
+    opacity: 0.4;
+}
+.loc:hover h4{
+    opacity: 1;
+}
+
+
+.loc a{
+    position: absolute;
+    margin-top: 167px;
+    opacity: 0;
+    transition: all 1s ease;
+}
+.pin{
+    width: 59px;
+    height: 54px;
+}
+
+.loc:hover a{
+    opacity: 1;
+}

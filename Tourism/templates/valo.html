@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='{% static "vendors/css/grid.css" %}'>
+    <link rel="stylesheet" type="text/css" href='{% static "resources/css/style.css" %}'>
+    <link rel="stylesheet" type="text/css" href='{% static "resources/css/queries.css" %}'>
+    <link rel="stylesheet" href='{% static "resources/css/onlinetour.css" %}'>
+    <link rel="stylesheet" href='{% static "resources/css/navbar.css" %}'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+<body>
+    <a class="online-btn" href="/"><i class="fa fa-arrow-left"></i></a>
+
+    <h1 class="hfeed">Volunteer</h1>
+    <form class="contact-form feed" action="#" method="post">
+        {% csrf_token %}
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="name">Name</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="email">Email</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="email" name="email" id="email" placeholder="Email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label>Skill</label>
+          </div>
+          <div class="col span-2-of-3">
+            <select id="find-us" name="message">
+              <option value="search" selected>Search Engine</option>
+              <option value="PREMIUM">Excellent</option>
+              <option value="PRO">Very Good</option>
+              <option value="STARTER">Not Good</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label>&nbsp;</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="submit" name="" value="Submit">
+          </div>
+        </div>
+      </form>
+</body>
+</html>

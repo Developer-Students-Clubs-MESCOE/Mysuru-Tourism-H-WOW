@@ -1,0 +1,38 @@
+.online{
+    /* position: relative; */
+    margin: 0px 20px;
+    height: 255px;
+}
+.btns{
+    width:100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.online-btn{
+    text-decoration: none;
+    padding:13px;
+    border-radius: 50px;
+    width: 250px;
+    background-color: rgb(255, 136, 0);
+    color:aliceblue;
+    transition: all 0.5s;
+    margin: 12px 20px;
+    text-align: center;
+}
+.online-btn:hover{
+    background-color: rgb(185, 102, 8);
+}
+section .online{
+    padding: 20px 0px;
+}
+@media screen and (max-width: 480px){
+    .online{
+        height: 500px;
+    }
+    .online-btn{
+        margin: 12px 20px;
+    }
+}
