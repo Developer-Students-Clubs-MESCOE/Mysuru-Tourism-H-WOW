@@ -1,4 +1,4 @@
-### 🏠 [Homepage](https://mysuru.pythonanywhere.com/)
+### 🏠 [Website Homepage](https://mysuru.pythonanywhere.com/)
 
 # Mysuru-Tourism-H-WOW
 Tourism in India has shown phenomenal growth in the past decade. One of the
