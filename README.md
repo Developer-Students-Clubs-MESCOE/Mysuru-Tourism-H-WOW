@@ -8,7 +8,7 @@ The tourism sector in India has faced a major impact due to Covid-19.
 Many people have lost their jobs and the cities which depend on tourism as their main source of income and employment are in turmoil.
 To tackle this problem, we have come up with a solution which is an online website.
 
-####The purpose of the Website is established fact that Internet users are increasing day by day.
+## The purpose of the Website is established fact that Internet users are increasing day by day.
 ---
 The following are the main purpose of the website are:
 - To facilitate the offline customer online specially in this pandemic area
@@ -18,7 +18,7 @@ The following are the main purpose of the website are:
 
 
 
-#How to contribute?
+## How to contribute?
 - Fork this repository.
 
 - Clone the forked repository to your computer.
