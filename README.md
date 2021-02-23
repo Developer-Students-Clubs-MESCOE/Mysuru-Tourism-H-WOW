@@ -1,3 +1,5 @@
+### 🏠 [Homepage](https://mysuru.pythonanywhere.com/)
+
 # Mysuru-Tourism-H-WOW
 Tourism in India has shown phenomenal growth in the past decade. One of the
 reasons are that the Ministry of tourism, India has realized the immense potential
@@ -22,8 +24,9 @@ The following are the main purpose of the website are:
 - Fork this repository.
 
 - Clone the forked repository to your computer.
-
-https://github.com/Developer-Students-Clubs-MESCOE/Mysuru-Tourism-H-WOW
+  ```
+  https://github.com/Developer-Students-Clubs-MESCOE/Mysuru-Tourism-H-WOW
+  ```
 
 - Add your choice of code in any of the folder that has been created.
 
